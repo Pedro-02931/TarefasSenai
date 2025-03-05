@@ -6,7 +6,7 @@
 
 * [LDM](tarefas-senai/ldm/README.md)
   * [Git](tarefas-senai/ldm/git.md)
-* [LOP](tarefas-senai/lop/README.md)
+* [LDP](tarefas-senai/lop/README.md)
   * [Clinica App](tarefas-senai/lop/clinica-app/README.md)
     * [model](tarefas-senai/lop/clinica-app/model/README.md)
       * [Paciente.java](tarefas-senai/lop/clinica-app/model/paciente.java.md)
