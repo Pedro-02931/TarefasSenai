@@ -31,44 +31,22 @@ Se você encontrou este repositório e quer utilizá-lo, **leia atentamente** a 
 Aqui está um **mapa interativo** das matérias e projetos, que permite navegação rápida:
 
 ```mermaid
-graph TD;
+graph TD
 %% Nó Principal - O Mapa Central
     A[Repositório Principal - SENAI] -->|GitBook Docs| B[Documentação]
 
 %% Matérias e seus repositórios
-    A --> C[Lógica de Programação]
-    A --> D[Redes de Computadores]
-    A --> E[Desenvolvimento Web]
-    A --> F[Segurança da Informação]
-    A --> G[Banco de Dados]
-    A --> H[Sistemas Embarcados]
+    A --> D[LDP]
 
 %% Projetos por matéria
-    C --> C1[Algoritmos Genéticos] -->|GitHub| C1_repo[Repositório]
-    C --> C2[Autômato Celular] -->|GitHub| C2_repo[Repositório]
-
-    D --> D1[Monitor de Tráfego] -->|GitHub| D1_repo[Repositório]
-
-    E --> E1[WebSocket Chat] -->|GitHub| E1_repo[Repositório]
-    E --> E2[API RESTful] -->|GitHub| E2_repo[Repositório]
-
-    F --> F1[Exploração de Vulnerabilidades] -->|GitHub| F1_repo[Repositório]
-
-    G --> G1[ORM Personalizado] -->|GitHub| G1_repo[Repositório]
-
-    H --> H1[Controle de Sensores IoT] -->|GitHub| H1_repo[Repositório]
+    D --> D1[Clinica App - Código] -->|GitHub| D1_repo[Repositório]
+    D --> D2[Clinica App - Documentação] -->|GitBook| D2_repo[Documentação]
 
 %% Links Externos para GitHub e GitBook
-    click A "https://github.com/seu_usuario/SENAI" "Ver Repositório Principal"
-    click B "https://gitbook.com/seu_usuario/SENAI" "Ver Documentação"
-    click C1_repo "https://github.com/seu_usuario/Logica_AlgoritmosGeneticos" "Abrir Projeto"
-    click C2_repo "https://github.com/seu_usuario/Logica_AutomatoCelular" "Abrir Projeto"
-    click D1_repo "https://github.com/seu_usuario/Redes_MonitorTrafego" "Abrir Projeto"
-    click E1_repo "https://github.com/seu_usuario/Web_WebSocketChat" "Abrir Projeto"
-    click E2_repo "https://github.com/seu_usuario/Web_API_RESTful" "Abrir Projeto"
-    click F1_repo "https://github.com/seu_usuario/Seguranca_ExploracaoVulnerabilidades" "Abrir Projeto"
-    click G1_repo "https://github.com/seu_usuario/BD_ORM_Personalizado" "Abrir Projeto"
-    click H1_repo "https://github.com/seu_usuario/Embarcados_ControleSensoresIoT" "Abrir Projeto"
+    click A "https://github.com/Pedro-02931" "Ver Repositório Principal"
+    click B "https://senai-1.gitbook.io/senai.org/tarefas-senai/lop" "Ver Documentação"
+    click D1_repo "https://github.com/Pedro-02931/TarefasSenai/tree/LDP.lopal_clinica" "Abrir Repositório do Projeto"
+    click D2_repo "https://senai-1.gitbook.io/senai.org/tarefas-senai/lop/clinica-app" "Abrir Documentação do Projeto"
 ```
 
 ---
@@ -98,10 +76,9 @@ Se você chegou até aqui, aproveite o conteúdo e, quem sabe, **expanda essa ba
 ---
 
 ## **🔗 Links Importantes**
-- 📂 **GitHub:** [Repositório Principal](https://github.com/seu_usuario/SENAI)
-- 📜 **GitBook:** [Documentação](https://gitbook.com/seu_usuario/SENAI)
-- 📡 **LinkedIn:** [Postagens Técnicas e Reflexões](https://linkedin.com/in/seu_usuario)
-
+- 📂 **GitHub:** [Olá](https://github.com/Pedro-02931)
+- 📜 **GitBook:** [Documentação](https://senai-1.gitbook.io/senai.org)
+- 📡 **LinkedIn:** [Postagens Técnicas e Reflexões](https://www.linkedin.com/in/pedro-mota-7941b4354/)
 ---
 
 **Se o conhecimento é um grafo, a única forma de avançar é expandir os nós.**  
