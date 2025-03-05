@@ -1,0 +1,18 @@
+Sigla,Significado,Descrição
+AES-256,Advanced Encryption Standard 256-bit,Criptografia simétrica de alta segurança.
+OAuth2.0,Open Authorization 2.0,Protocolo de autorização para controle de acesso.
+RBAC,Role-Based Access Control,Controle de acesso baseado em funções.
+SSL,Secure Sockets Layer,Protocolo de segurança para criptografia de dados.
+PCI DSS,Payment Card Industry Data Security Standard,Padrão de segurança para transações com cartões.
+SLA,Service Level Agreement,Acordo de nível de serviço que define garantias de disponibilidade.
+GDPR,General Data Protection Protection,Regulamento europeu de proteção de dados.
+LGPD,Lei Geral de Proteção de Dados,Legislação brasileira de proteção de dados pessoais.
+TLS 1.3,Transport Layer Security 1.3,Versão mais recente do protocolo de segurança TLS.
+SSR,Server-Side Render,Renderização de páginas no servidor para melhorar SEO.
+Schema.org,Schema.org,Padrão de marcação para dados estruturados em páginas web.
+Failover,Failover,Capacidade de alternar para um sistema redundante em caso de falha.
+Multicloud,Multicloud,Uso de múltiplos provedores de nuvem para maior resiliência.
+SEO,Search Engine Optimization,Otimização para motores de busca.
+GDPR,General Data Protection Regulation,Regulamento europeu de proteção de dados.
+LGPD,Lei Geral de Proteção de Dados,Legislação brasileira de proteção de dados pessoais.
+PCI DSS,Payment Card Industry Data Security Standard,Padrão de segurança para transações com cartões.
