@@ -1,6 +1,6 @@
 # Table of contents
 
-* [O Hipercubo Cognitivo](README.md)
+* [Propósito da Documentação - SENAI](README.md)
 
 ## Tarefas SENAI
 
@@ -68,12 +68,3 @@
           * [Script](tarefas-senai/publish-your-docs/colapsos/prototipos/c/sistema-centauro-por-aprendizado/script.md)
         * [Simulação termodinamica](tarefas-senai/publish-your-docs/colapsos/prototipos/c/simulacao-termodinamica/README.md)
           * [Script](tarefas-senai/publish-your-docs/colapsos/prototipos/c/simulacao-termodinamica/script.md)
-
-## Features
-
-* [Metacognição](features/editor.md)
-* [Markdown](features/markdown.md)
-* [Images & media](features/images-and-media.md)
-* [Interactive blocks](features/interactive-blocks.md)
-* [OpenAPI](features/openapi.md)
-* [Integrations](features/integrations.md)
