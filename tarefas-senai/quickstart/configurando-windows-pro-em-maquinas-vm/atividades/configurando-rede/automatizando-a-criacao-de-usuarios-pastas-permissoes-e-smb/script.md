@@ -151,6 +151,16 @@ function Restart-SMBServiceAndTestConnectivity {
     Test-NetConnection -ComputerName localhost -Port 445
 }
 
+
+# Dado que a criação não define um grupo de regrar, tive que listar de usuários a serem atribuídos ao grupo "Usuários" para habilitar o login.
+$users = @("Terra", "Vênus", "Marte", "Júpiter", "Saturno", "Netuno", "Urano")
+
+# Itera sobre cada usuário e adiciona ao grupo "Usuários"
+foreach ($user in $users) {
+    Add-LocalGroupMember -Group "Usuários" -Member $user -ErrorAction SilentlyContinue
+    Write-Host "Usuário $user adicionado ao grupo 'Usuários'."
+}
+
 # Execução do script em sequência lógica
 New-CustomUsers
 New-CustomFolders
