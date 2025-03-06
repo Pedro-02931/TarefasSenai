@@ -6,6 +6,8 @@ description: >-
 
 # Criando Virtual Box
 
+## [Script Otimizado GitHub](https://github.com/Pedro-02931/TarefasSenai/blob/SOP/Atividades/Criando%20VirtualBox/script.ps1)
+
 ## 1 Chamando botão novo() do VirtualBox
 
 {% embed url="https://drive.google.com/file/d/1UP1XD_PKzos3aT0P5PTysVb9VbF6nDSc/view?usp=sharing" %}

@@ -2,21 +2,6 @@
 
 {% code overflow="wrap" %}
 ```powershell
-# ============================================================
-# Script de Criação Automatizada de Usuários e Grupos
-# ============================================================
-# Esse script mapeia os usuários e grupos utilizando uma lógica
-# inspirada em redes neurais e grafos. Cada usuário é tratado como
-# um nó (neurônio) e os grupos funcionam como sinapses que conectam
-# esses nós.
-#
-# Objetivo:
-#  - Criar usuários locais se eles ainda não existirem.
-#  - Mapear e criar grupos, associando os usuários conforme definido.
-#
-# Atenção: Execute esse script com privilégios administrativos.
-# ============================================================
-
 # 1. Mapeamento dos Usuários: O Grafo Neural
 $usuarios = @(
     @{ Nome = "Carlos";  FullName = "Carlos";  Password = "P@ssw0rd" },
@@ -37,6 +22,7 @@ foreach ($usuario in $usuarios) {
             -Password (ConvertTo-SecureString $usuario.Password -AsPlainText -Force)
         # Define que a senha nunca expira para o usuário recém-criado
         Set-LocalUser -Name $usuario.Nome -PasswordNeverExpires $true
+        Add-LocalGroupMember -Group "Usuários" -Member $usuario.Nome # Correção por que não adicionava
         Write-Host "Usuário criado: $($usuario.Nome)"
     } else {
         Write-Host "Usuário já existe: $($usuario.Nome)"
@@ -53,7 +39,6 @@ $grupos = @{
 # conforme as necessidades de cada departamento ou função.
 
 # 4. Associação de Usuários aos Grupos: Sincronização Neural
-# 4. Associação de Usuários aos Grupos: Sincronização Neural
 foreach ($grupo in $grupos.Keys) {
     # Verifica se o grupo já existe; se não, cria o grupo
     if (-not (Get-LocalGroup -Name $grupo)) {
@@ -68,13 +53,6 @@ foreach ($grupo in $grupos.Keys) {
     }
 }
 
-
-# ============================================================
-# Fim do Script
-# ============================================================
-# Esse script transforma o potencial em realidade, materializando
-# cada nó e sinapse na rede do sistema. Agora o ambiente está organizado
-# e pronto para o próximo ciclo de criação e conexão.
 
 ```
 {% endcode %}
