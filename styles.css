@@ -1,0 +1,157 @@
+/*
+===========================================================================================================
+# O que estou fazendo
+
+Dado que essa atividade prática é bem básica, decidi que vou focar mais em comentar para descrever a lógica
+por trás e aprender no processo.
+
+Bom, é mais fácil fazer um slice das coisas do que criar do zero. 
+===========================================================================================================
+*/
+
+/* 
+============================================================================================================
+Aqui estou definindo as margens e o padding no global para evitar inconsistencia nos navegores, que, apesar de 
+quase todos terem caracteriscas muito em comum e motores bem parecidos, mas sigo o principio do meca duas vezes,
+corte uma vez.
+============================================================================================================
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+
+/* 
+============================================================================================================
+Aqui estou definindo a configuracao do body com uma cor leve, próximo ao máximo do branco, mas sem ser total
+mente branco, usando a sans-serif para deixar o texto mais legíve por causa das serif e aducuina uma margem 
+para evitar com que a pagina fique grugada na borda do navegador
+============================================================================================================
+*/
+body {
+    
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+  
+/*
+============================================================================================================
+Aqui é a estilizacao do container principal, que centraliza o conteúdo horizontalmente com o margin auto, de
+finindo uma largura máxima para evitar que o conteúdo se espalhe demais em telas grandes. 
+
+Adiciona também um padding interno e um fundo branco para destacar o conteúdo e com uma leve sombra para dar
+profundidade.
+============================================================================================================
+*/
+  .main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+/*
+============================================================================================================
+O cabecalho agruopa tanto o titulo quanto a imagem, por isso o uso da tag englobando os dois. No caso, o 
+texto é centralizado e tem 20 px abaixo da receita
+============================================================================================================
+*/
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+
+/*
+============================================================================================================
+Aqui definido um tamanho grande para destacar o titulos através do em( no caso, leva em consideracao o 
+tamanho base do elemento parente, ficando especificamente 2.5 vezes maior).
+
+Tambés foi definido uma cor escura para contraste com o fundo claro, e um margin-bottom para separar o título 
+da imagem.
+============================================================================================================
+*/
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+/*
+============================================================================================================
+Aqui foi definido que a largura ocupe 100% do espaco para responsividadem, mas limitado a 400 px para evitar
+erros de layout. 
+As bordas foram aredondadas para suavizar os cantos e uma sombra leve foi adicionada para destacar a imagem.
+============================================================================================================
+*/
+.recipe-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+  
+/* 
+============================================================================================================
+Bom, aqui é o global das secoe de texto, só para definir uma margem
+============================================================================================================
+*/
+.ingredients, .preparo {
+    margin-top: 20px;
+}
+  
+
+/*
+============================================================================================================
+Aqui é o estilo dos títulos de seção, que são utilizados para separar as seções da receita com base em tamanho
+relativo, e uma cor distinta para diferenciar do título principal.
+============================================================================================================
+*/
+.ingredients h2, .preparo h2 {
+    font-size: 1.8em;
+    color: #555;
+    margin-bottom: 10px;
+}
+  
+
+/*
+============================================================================================================
+Aqui é o estilo das listas de ingredientes e preparo, adicionei margens interna e espacamento entre as secoes
+ para facilitar a leitura
+============================================================================================================
+*/
+.ingredients ul, .preparo ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+ 
+
+/*
+============================================================================================================
+aqui cada item recebe um espacamento para facilitar a leitura.
+============================================================================================================
+*/
+.ingredients li, .preparo li {
+    margin-bottom: 8px;
+}
+  
+/* 
+============================================================================================================
+O rodapé é centralizado e tem uma fonte pequena e uma cor escura para destacar o conteúdo.
+Adicionei um margem superior para separar o rodapé da receita.
+============================================================================================================
+*/
+ footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 20px;
+}
+  

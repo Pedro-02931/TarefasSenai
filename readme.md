@@ -33,42 +33,15 @@ Aqui está um **mapa interativo** das matérias e projetos, que permite navegaç
 ```mermaid
 graph TD;
 %% Nó Principal - O Mapa Central
-    A[Repositório Principal - SENAI] -->|GitBook Docs| B[Documentação]
+    A[Repositório Principal - SENAI] -->|GitBook Docs| B[Documentação Das Atividades]
 
 %% Matérias e seus repositórios
-    A --> C[Lógica de Programação]
-    A --> D[Redes de Computadores]
-    A --> E[Desenvolvimento Web]
-    A --> F[Segurança da Informação]
-    A --> G[Banco de Dados]
-    A --> H[Sistemas Embarcados]
-
-%% Projetos por matéria
-    C --> C1[Algoritmos Genéticos] -->|GitHub| C1_repo[Repositório]
-    C --> C2[Autômato Celular] -->|GitHub| C2_repo[Repositório]
-
-    D --> D1[Monitor de Tráfego] -->|GitHub| D1_repo[Repositório]
-
-    E --> E1[WebSocket Chat] -->|GitHub| E1_repo[Repositório]
-    E --> E2[API RESTful] -->|GitHub| E2_repo[Repositório]
-
-    F --> F1[Exploração de Vulnerabilidades] -->|GitHub| F1_repo[Repositório]
-
-    G --> G1[ORM Personalizado] -->|GitHub| G1_repo[Repositório]
-
-    H --> H1[Controle de Sensores IoT] -->|GitHub| H1_repo[Repositório]
+    A --> D[LDM]
 
 %% Links Externos para GitHub e GitBook
-    click A "https://github.com/seu_usuario/SENAI" "Ver Repositório Principal"
-    click B "https://gitbook.com/seu_usuario/SENAI" "Ver Documentação"
-    click C1_repo "https://github.com/seu_usuario/Logica_AlgoritmosGeneticos" "Abrir Projeto"
-    click C2_repo "https://github.com/seu_usuario/Logica_AutomatoCelular" "Abrir Projeto"
-    click D1_repo "https://github.com/seu_usuario/Redes_MonitorTrafego" "Abrir Projeto"
-    click E1_repo "https://github.com/seu_usuario/Web_WebSocketChat" "Abrir Projeto"
-    click E2_repo "https://github.com/seu_usuario/Web_API_RESTful" "Abrir Projeto"
-    click F1_repo "https://github.com/seu_usuario/Seguranca_ExploracaoVulnerabilidades" "Abrir Projeto"
-    click G1_repo "https://github.com/seu_usuario/BD_ORM_Personalizado" "Abrir Projeto"
-    click H1_repo "https://github.com/seu_usuario/Embarcados_ControleSensoresIoT" "Abrir Projeto"
+    click A "https://github.com/Pedro-02931" "Ver Repositório Principal"
+    click B "https://senai-1.gitbook.io/senai.org/tarefas-senai/ldm" "Ver Documentação"
+    click D "https://github.com/Pedro-02931/TarefasSenai/tree/LDM"
 ```
 
 ---
