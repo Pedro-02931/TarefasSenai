@@ -1,6 +1,6 @@
 # O que é esse app:
 
-- Aplicativo de consulta criado sobre a supervisão do professor [Celso Furtado](https://www.linkedin.com/in/celso-furtado-803713aa/) na turma de desenvolvimento de sistema 2025 no SENAI de Jandira.
+- Aplicativo de calculo criado sobre a supervisão do professor [Celso Furtado](https://www.linkedin.com/in/celso-furtado-803713aa/) na turma de desenvolvimento de sistema 2025 no SENAI de Jandira.
 - O objetivo é aprender conceitos de orientação a objetos.
 
 ```mermaid
