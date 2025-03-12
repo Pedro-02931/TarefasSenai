@@ -1,6 +1,7 @@
 package main.senai.com.calcularPoligonos.model;
 
 public final class Triangle extends Shape {
+    private static final double AREA_CONSTANT = Math.sqrt(3) * 0.25;
     private final double side;
 
     public Triangle(double side) {
@@ -9,12 +10,12 @@ public final class Triangle extends Shape {
     }
 
     @Override
-    public double getArea() {
-        return (Math.sqrt(3) / 4) * Math.pow(side, 2);
+    public final double getArea() {
+        return AREA_CONSTANT * side * side; 
     }
 
     @Override
-    public double getPerimeter() {
+    public final double getPerimeter() {
         return 3 * side;
     }
 }

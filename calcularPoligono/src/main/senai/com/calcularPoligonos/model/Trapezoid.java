@@ -1,9 +1,9 @@
 package main.senai.com.calcularPoligonos.model;
 
 public final class Trapezoid extends Shape {
+    private final double height;
     private final double biggerBase;
     private final double smallerBase;
-    private final double height;
 
     public Trapezoid(double biggerBase, double smallerBase, double height) {
         validate(biggerBase, smallerBase, height);
@@ -13,12 +13,12 @@ public final class Trapezoid extends Shape {
     }
 
     @Override
-    public double getArea() {
-        return ((biggerBase + smallerBase) / 2) * height;
+    public final double getArea() {
+        return (biggerBase + smallerBase) * height * 0.5;
     }
 
     @Override
-    public double getPerimeter() {
+    public final double getPerimeter() {
         return biggerBase + smallerBase + (2 * height);
     }
 }

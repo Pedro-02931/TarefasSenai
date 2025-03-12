@@ -1,7 +1,6 @@
 package main.senai.com.calcularPoligonos.model;
 
-public final class Rectangle extends Shape{
-
+public final class Rectangle extends Shape {
     private final double width;
     private final double height;
 
@@ -11,11 +10,13 @@ public final class Rectangle extends Shape{
         this.height = height;
     }
 
-    public double getArea() {
+    @Override
+    public final double getArea() {
         return width * height;
     }
 
-    public double getPerimeter() {
+    @Override
+    public final double getPerimeter() {
         return 2 * (width + height);
     }
 }
